@@ -109,6 +109,28 @@
       }
     }
 
+    /* Draft Banner CSS */
+    .watermark-draft {
+        position: fixed; /* Stays in place even when scrolling */
+        top: 20px;       /* Distance from the top edge */
+        right: -50px;    /* Pull it partially off the side to allow for rotation */
+        width: 200px;    /* Width of the banner itself */
+        padding: 10px 0; /* Vertical padding */
+        background-color: #dc3545; /* Red color, change as needed */
+        color: white;    /* Text color */
+        font-family: sans-serif; /* Font style */
+        font-size: 20px; /* Font size */
+        font-weight: bold; /* Bold text */
+        text-align: center; /* Center the text */
+        transform: rotate(45deg); /* Rotate by 45 degrees */
+        transform-origin: 50% 50%; /* Rotate around its center */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+        z-index: 9999; /* Ensure it's on top of other content */
+        pointer-events: none; /* Allows clicks to pass through the banner to content underneath */
+        letter-spacing: 2px; /* A little space between letters */
+        text-transform: uppercase; /* All caps */
+    }
+
   </style>
   <script src="https://kit.fontawesome.com/70dceabc29.js" crossorigin="anonymous"></script>
   <script defer data-domain="ai-in-education.tech" src="https://plausible.io/js/script.js"></script>
