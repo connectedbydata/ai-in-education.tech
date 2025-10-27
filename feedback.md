@@ -1,5 +1,6 @@
 ---
 layout: feedback
+redirect_to: https://connectedbydata.org/ai-in-education/feedback
 ---
 
 

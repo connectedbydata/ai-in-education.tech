@@ -1,5 +1,6 @@
 ---
 layout: home
+redirect_to: https://connectedbydata.org/ai-in-education
 ---
 
 <!--FAQs go in here, other content is in the home layout-->

@@ -3,6 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.title }}</title>
+  {%- if page.redirect_to -%}
+  <meta http-equiv="Refresh" content="0; url={{ page.redirect_to }}" />
+  {%- endif -%}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
